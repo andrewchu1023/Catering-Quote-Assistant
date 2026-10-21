@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local quote storage (never commit customer records)
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Local secrets
+.env
+.env.*
+!.env.example
